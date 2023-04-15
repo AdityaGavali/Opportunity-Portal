@@ -54,7 +54,7 @@ const Header = ({ active, setActive, user, handleLogout }) => {
                     }`}
                     onClick={() => setActive("create")}
                   >
-                    Create
+                    Post An Opportunity
                   </li>
                 </Link>
 
@@ -65,7 +65,7 @@ const Header = ({ active, setActive, user, handleLogout }) => {
                     }`}
                     onClick={() => setActive("about")}
                   >
-                    About
+                    Guidance
                   </li>
                 </Link>
               </ul>

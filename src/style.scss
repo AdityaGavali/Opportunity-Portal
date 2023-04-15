@@ -5,10 +5,19 @@
   --gradient-left-right: linear-gradient(to right, #ff8a00, #e52e71);
 }
 
-
-body{
-	
+.higher-oppor{
+   color : #000;
+   margin: 8px;
+   border: 3px solid green;
+   border-radius: 10px;
 }
+.div3{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	flex-wrap: wrap;
+}
+
 .paddding {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -389,6 +398,31 @@ body{
 	z-index: 9;
 	padding: 10px;
 	bottom: 0;
+}
+.div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	row-gap: 10px;
+	margin: 8px;
+	border: 3px solid green;
+	border-radius: 10px;
+	
+}
+.div2{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+.roadmap{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 8px;
+	border: 3px solid green;
+	border-radius: 10px;
+	color: #000;
 }
 .trending-meta-info {
 	color: rgba(255, 255, 255, 0.7);
@@ -1106,6 +1140,17 @@ body{
 		min-height: 400px;
 		height: 80%;
    }
+}
+.div{
+	color: #000;
+	font-size: larger;
+}
+.resource{
+	color: #000;
+}
+.roadmap{
+	color: #000;
+	font-size: small;
 }
 .wrapper .container .text article {
 	width: 400px;

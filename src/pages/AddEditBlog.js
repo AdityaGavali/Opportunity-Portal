@@ -36,7 +36,10 @@ const categoryOption = [
   "Phone Pe",
   "Triology",
   "Goldman Sachs",
-  "Altlasian"
+  "Altlasian",
+  "Flipkart",
+  "LinkedIN",
+  "other"
 ];
 
 

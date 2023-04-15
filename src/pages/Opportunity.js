@@ -103,11 +103,11 @@ const Opportunity = ({setActive}) => {
   };
   return (
     <div>
-      <div className="container">
+      <div className="container " >
         <div className="row">
           <div className="blog-heading text-center py-2 mb-4">Daily Opportunity</div>
           {Opportunity?.map((blog) => (
-            <div className="col-md-6 oppotunities-adjustment" key={blog.id}>
+            <div style={{margin:'5px'}} className="col-md-6 oppotunities-adjustment" key={blog.id}>
               <Opportunityection {...blog} />
             </div>
           ))}

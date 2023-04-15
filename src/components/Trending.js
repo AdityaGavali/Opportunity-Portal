@@ -96,7 +96,7 @@ const Trending = ({ Opportunitys ,loading }) => {
           
                         <div className="author-name">
                             <div className="author-name-prefix">Author</div>
-                           <div style={{color:"#7a7a8b"}}>{item.author}</div>
+                           <div style={{color:"#7a7a8b"}}>Aditya</div>
                         </div>
 
                 
